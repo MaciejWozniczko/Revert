@@ -1,0 +1,2 @@
+dateFormat[E, yyyy.MM.dd HH:mm:ss]
+outputTargetDirectory[C:/Users/Maciej/Documents/Java_nauka/Revert/Logs/Log.txt]

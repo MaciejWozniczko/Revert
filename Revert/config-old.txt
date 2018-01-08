@@ -1,0 +1,2 @@
+dateFormat["%<td %<tm %tY %tT"]
+outputTargetDirectory[C:\Users\Maciej\Documents\Java_nauka\Revert]
