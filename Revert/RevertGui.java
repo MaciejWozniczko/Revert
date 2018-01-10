@@ -73,7 +73,7 @@ public class RevertGui extends JFrame implements ActionListener
 		
 		else if(signalSource == bShowLog)
 		{
-			RevertLog wLogs = new RevertLog();
+			RevertLog wLogs = new RevertLog(currentConfiguration.outputDirectory);
 			wLogs.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
 			wLogs.setVisible(true);
 		}
