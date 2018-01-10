@@ -19,11 +19,11 @@ public class RevertLog extends JFrame
 	JTextArea field;
 
 	
-	public RevertLog()            //okienko z wyswietlonymi logami
+	public RevertLog(String pathLog)            //okienko z wyswietlonymi logami
 	{
 		setLayout(null);
 		
-		setSize(700,300);
+		setSize(730,350);
 		setTitle("Logs of Revert");
 		
 		field = new JTextArea();
@@ -34,7 +34,7 @@ public class RevertLog extends JFrame
 		
 		
 		//odczyt z pliku log.txt
-			File fConfig = new File("./Logs/Log.txt");
+			File fConfig = new File(pathLog);
 			FileReader fr = null;
 			BufferedReader br = null;
 			
