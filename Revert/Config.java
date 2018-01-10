@@ -17,7 +17,7 @@ public class Config {
 	
 	public void readConfiguration() {
 	
-	File fConfig = new File("./Configuration/Config.txt");
+	File fConfig = new File("C:\MyJavaApps\Revert\Configuration\Config.txt");
 	BufferedReader br = null;
 	FileReader fr = null;
 	
